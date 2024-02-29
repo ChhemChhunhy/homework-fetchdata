@@ -1,4 +1,4 @@
-const BASE_URL = 'http://127.0.0.1:5500/data/'
+const BASE_URL = 'http://127.0.0.1:5501/data/'
  export async function getData(endpoint){
     try{
         const res = await fetch (BASE_URL+ endpoint +".json",{
